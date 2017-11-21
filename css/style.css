@@ -1,17 +1,93 @@
 /* Fonts from Google Fonts - more at https://fonts.google.com */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+.header {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 70px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  background-image: url("../images/storytelling-294375_960_720.png");
+  background-size: cover;
+  background-color:#e6e6d7;
+}
+
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  text-align: center;
+  padding: 4px 1px;
+  justify-content: center;
+  background-color: #e6e6d7;
+}
+
+.navbar a {
+  text-decoration: none;  
+  padding: 4px 15px;
+  color: #ffffff;
+}
 
 body {
-  background-color: red;
+  background-image: url("../images/storytelling-294375_960_720.png");
+  background-color: black;
   font-family: "Open Sans", sans-serif;
   padding: 5px 25px;
   font-size: 18px;
   margin: 0;
-  color: #444;
+  color: #ffffff;
 }
 
 h1 {
   font-family: "Merriweather", serif;
-  font-size: 32px;
+  font-size: 24px;
+}
+
+img {
+    float: inherit;
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+img a {
+    float: inherit;
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+/*mobile design*/
+/*@media only screen and (max-width: 1000px)*/
+.navbar, .header, .body 
+  {
+    width: 100%;
+    align-items: center;
+    }
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+   margin-right: auto;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+tr:nth-child(even) {
+  background-color: #5f5b60;
+  
+}
+  
+#highlight{
+  background-color: rgba(255,255,255,.4);
+  color: #000000;
+}
+
+#title{
+  text-align: center;
 }
